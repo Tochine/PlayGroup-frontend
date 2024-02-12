@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+.wrapper {
+    background: #dfe9f5;
 }
 
 .main {
@@ -183,10 +188,12 @@ ul li a:hover {
 }
 
 .footer {
-    background: rgb(234, 231, 231);
+    /* background: rgb(234, 231, 231); */
+    background: #212F3D;
     min-height: 150px;
     padding: 30px 40px 5px 10em;
     display: flex;
+    color: #fff;
 }
 
 .contact {
